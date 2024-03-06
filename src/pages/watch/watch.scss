@@ -1,0 +1,34 @@
+// Watch.scss
+
+.watch {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+  .back {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    svg {
+      margin-right: 5px;
+    }
+  }
+
+  .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; // Ensure the video covers the container while maintaining aspect ratio
+  }
+}

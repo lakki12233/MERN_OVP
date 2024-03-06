@@ -1,0 +1,16 @@
+.home{
+    background-color: var(--main-color);
+  overflow: hidden;
+  padding: 20px; // Add padding for better spacing
+  
+  .list {
+    margin-bottom: 20px; // Add margin between lists
+  }
+
+  @media (min-width: 768px) {
+    // Adjust styles for larger screens
+    padding: 40px;
+  }
+
+
+}
