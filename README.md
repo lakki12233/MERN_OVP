@@ -1,3 +1,33 @@
+The Full Stack Online Video Platform allows users to experience seamless registration and secure login through JSON Web Token (JWT) authentication, ensuring robust security. The user interface is powered by React, utilizing React Hooks for efficient state and side-effect management, and Context API for global state management. RESTful APIs facilitate communication between the client and server, ensuring a responsive and interactive viewing environment.
+
+For backend operations, Node.js and Express are used to handle server-side logic, with Firebase managing movie storage, offering scalable and secure data storage solutions. MongoDB is employed to handle user and content data, providing a flexible and scalable NoSQL database solution.
+
+Admins benefit from a dedicated dashboard built with React, enabling efficient content management, including movie additions, updates, and list creation. The platform includes an analytical module that provides insights into monthly user registration trends, enhancing decision-making for platform improvements.
+
+Furthermore, the platform integrates the Google Dialogflow chatbot, enhancing the user experience on the client page by offering intelligent and interactive assistance.
+
+**Programming Languages:** 
+- JavaScript
+
+**Frontend Frameworks and Libraries:**
+- React
+  - React Hooks
+  - Context API
+
+**Backend Frameworks and Libraries:**
+- Node.js
+- Express
+
+**Databases:**
+- Firebase
+- MongoDB
+
+**Additional Tools and Integrations:**
+- JWT (JSON Web Tokens) for authentication
+- Google Dialogflow for chatbot integration
+- RESTful APIs for client-server communication
+
+
 ADMIN DASHBOARD :
  1) Home page:
   <img width="952" alt="image (4)" src="https://github.com/user-attachments/assets/de1c6d48-c4ed-4c04-b913-27fb7b50812f">
